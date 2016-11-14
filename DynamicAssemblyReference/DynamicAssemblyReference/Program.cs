@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
 
-namespace DynamicAssemblyReffence
+namespace DynamicAssemblyReference
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {

@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassController", "ClassController\ClassController.csproj", "{219A9A3E-0C20-4D15-9127-A361B55F0487}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicAssemblyReffence", "DynamicAssemblyReffence\DynamicAssemblyReffence.csproj", "{771CF654-8A96-4201-9F1B-A173FBEC4D96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicAssemblyReference", "DynamicAssemblyReference\DynamicAssemblyReference.csproj", "{771CF654-8A96-4201-9F1B-A173FBEC4D96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

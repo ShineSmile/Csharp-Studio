@@ -1,4 +1,4 @@
-﻿namespace DynamicAssemblyReffence
+﻿namespace DynamicAssemblyReference
 {
     public class Student
     {
