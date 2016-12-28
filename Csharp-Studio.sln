@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicAssemblyReference", "DynamicAssemblyReference", "{5A428D07-BD87-4B14-8A7D-884D827892B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassController", "DynamicAssemblyReference\ClassController\ClassController.csproj", "{219A9A3E-0C20-4D15-9127-A361B55F0487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicAssemblyReference", "DynamicAssemblyReference\DynamicAssemblyReference\DynamicAssemblyReference.csproj", "{771CF654-8A96-4201-9F1B-A173FBEC4D96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JsonArrayOrList", "JsonArrayOrList", "{435A34D7-5186-496F-BDCE-76EFAF2EED33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonArrayOrList", "JsonArrayOrList\JsonArrayOrList\JsonArrayOrList.csproj", "{E309F7AE-CF53-449D-890E-091AB96ED640}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Supervene", "Supervene", "{81FCB28C-6627-46B6-A95D-A3C491B6A605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supervene", "Supervene\Supervene\Supervene.csproj", "{4F2BD87E-92B9-4075-A09F-8E174EA93D37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SuperveneTimerCallBack", "SuperveneTimerCallBack", "{B1E8BCB6-C2B6-44C6-9789-564483DA4D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperveneTimerCallBack", "SuperveneTimerCallBack\SuperveneTimerCallBack\SuperveneTimerCallBack.csproj", "{74CCBD76-4126-44A2-8BD6-593B8FAAE63A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WcfObjectRecieve", "WcfObjectRecieve", "{5DB5A6AA-0349-4A9D-BB57-17CFBD1A4D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfObjectRecieve", "WcfObjectRecieve\WcfObjectRecieve\WcfObjectRecieve.csproj", "{3BDFCF34-7CB2-45AD-AD0C-C0421AD2D6C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YieldKeyword", "YieldKeyword", "{A0D0B7C7-AA9B-4A1E-9279-E882EF1A959F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldKeyword", "YieldKeyword\YieldKeyword\YieldKeyword.csproj", "{A8346EEE-D887-47AF-B973-573CF58839AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{219A9A3E-0C20-4D15-9127-A361B55F0487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219A9A3E-0C20-4D15-9127-A361B55F0487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219A9A3E-0C20-4D15-9127-A361B55F0487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219A9A3E-0C20-4D15-9127-A361B55F0487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771CF654-8A96-4201-9F1B-A173FBEC4D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771CF654-8A96-4201-9F1B-A173FBEC4D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771CF654-8A96-4201-9F1B-A173FBEC4D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771CF654-8A96-4201-9F1B-A173FBEC4D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E309F7AE-CF53-449D-890E-091AB96ED640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E309F7AE-CF53-449D-890E-091AB96ED640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E309F7AE-CF53-449D-890E-091AB96ED640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E309F7AE-CF53-449D-890E-091AB96ED640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2BD87E-92B9-4075-A09F-8E174EA93D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2BD87E-92B9-4075-A09F-8E174EA93D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2BD87E-92B9-4075-A09F-8E174EA93D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2BD87E-92B9-4075-A09F-8E174EA93D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74CCBD76-4126-44A2-8BD6-593B8FAAE63A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74CCBD76-4126-44A2-8BD6-593B8FAAE63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74CCBD76-4126-44A2-8BD6-593B8FAAE63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74CCBD76-4126-44A2-8BD6-593B8FAAE63A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDFCF34-7CB2-45AD-AD0C-C0421AD2D6C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDFCF34-7CB2-45AD-AD0C-C0421AD2D6C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDFCF34-7CB2-45AD-AD0C-C0421AD2D6C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDFCF34-7CB2-45AD-AD0C-C0421AD2D6C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8346EEE-D887-47AF-B973-573CF58839AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8346EEE-D887-47AF-B973-573CF58839AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8346EEE-D887-47AF-B973-573CF58839AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8346EEE-D887-47AF-B973-573CF58839AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{219A9A3E-0C20-4D15-9127-A361B55F0487} = {5A428D07-BD87-4B14-8A7D-884D827892B6}
+		{771CF654-8A96-4201-9F1B-A173FBEC4D96} = {5A428D07-BD87-4B14-8A7D-884D827892B6}
+		{E309F7AE-CF53-449D-890E-091AB96ED640} = {435A34D7-5186-496F-BDCE-76EFAF2EED33}
+		{4F2BD87E-92B9-4075-A09F-8E174EA93D37} = {81FCB28C-6627-46B6-A95D-A3C491B6A605}
+		{74CCBD76-4126-44A2-8BD6-593B8FAAE63A} = {B1E8BCB6-C2B6-44C6-9789-564483DA4D28}
+		{3BDFCF34-7CB2-45AD-AD0C-C0421AD2D6C4} = {5DB5A6AA-0349-4A9D-BB57-17CFBD1A4D8B}
+		{A8346EEE-D887-47AF-B973-573CF58839AC} = {A0D0B7C7-AA9B-4A1E-9279-E882EF1A959F}
+	EndGlobalSection
+EndGlobal

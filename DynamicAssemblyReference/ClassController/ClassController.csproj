@@ -51,7 +51,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>Copy "$(SolutionDir)ClassController\bin\Debug\*.*" "$(SolutionDir)DynamicAssemblyReference\bin\Debug\"</PostBuildEvent>
+    <PostBuildEvent>Copy "$(SolutionDir)DynamicAssemblyReference\ClassController\bin\Debug\*.*" "$(SolutionDir)DynamicAssemblyReference\DynamicAssemblyReference\bin\Debug\"</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
