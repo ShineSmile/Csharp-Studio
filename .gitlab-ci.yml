@@ -1,0 +1,12 @@
+stages:
+  - build
+
+build:
+  stage: build
+  script:
+  - 'echo building...'
+  - 'nuget restore Csharp-Studio.sln'
+  - 'MSBuild Csharp-Studio.sln /p:Configuration=Debug /t:Rebuild >> build.log'
+  tags: 
+  except:
+  - tags
