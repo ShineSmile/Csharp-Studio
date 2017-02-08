@@ -15,7 +15,6 @@ namespace WcfObjectRecieve
 
                 Console.WriteLine("Service startup!");
                 Console.Read();
-
             }
         }
     }

@@ -7,20 +7,20 @@ namespace WcfObjectRecieve
     [ServiceContract]
     internal interface IWcfService
     {
+
+        [OperationContract]
+        [WebInvoke(Method = "GET",
+            UriTemplate = "GetStudent")]
+        Student GetStudent();
+
         [OperationContract]
         [WebInvoke(Method = "POST",
-            UriTemplate = "GrowUpByObject",
-            RequestFormat = WebMessageFormat.Json,
-            ResponseFormat = WebMessageFormat.Json,
-            BodyStyle = WebMessageBodyStyle.Bare)]
+            UriTemplate = "GrowUpByObject")]
         Student GrowUpByObject(Student requestModel);
 
         [OperationContract]
         [WebInvoke(Method = "POST",
-            UriTemplate = "GrowUpByStream",
-            RequestFormat = WebMessageFormat.Json,
-            ResponseFormat = WebMessageFormat.Json,
-            BodyStyle = WebMessageBodyStyle.Bare)]
+            UriTemplate = "GrowUpByStream")]
         Student GrowUpByStream(Stream stream);
     }
 }

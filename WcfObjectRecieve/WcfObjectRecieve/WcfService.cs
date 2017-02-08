@@ -8,6 +8,11 @@ namespace WcfObjectRecieve
 
         private static readonly JsonSerializer Serializer = new JsonSerializer();
 
+        public Student GetStudent()
+        {
+            return new Student { Age = 25, Name = "Tom" };
+        }
+
         public Student GrowUpByObject(Student requestModel)
         {
             requestModel.Age += 1;
